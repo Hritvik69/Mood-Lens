@@ -1,0 +1,15 @@
+fastapi>=0.100.0
+uvicorn[standard]>=0.22.0
+opencv-python-headless>=4.8.0
+mediapipe==0.10.14
+onnxruntime>=1.15.0
+numpy>=1.24.0,<2.0.0
+pandas>=2.0.0
+psutil>=5.9.0
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+sqlalchemy>=2.0.0
+duckdb>=0.9.0
+python-multipart>=0.0.6
+# Optional: install for DeepFace engine (pulls TensorFlow ~500MB)
+# deepface>=0.0.79
